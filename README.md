@@ -75,7 +75,7 @@ print(ascii_banner)
 
 ``` 
 
-## User Input
+## Input
 ```
 # Ask for input
 remoteServer = input("Enter a remote host to scan: ")
