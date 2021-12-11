@@ -14,7 +14,30 @@ This is a form of "reconnaissance" for hackers and penetration testers.
 
 ## Output || Testing the Reconnaissance Tool
 
-In this example output, the ports that are open are 'Portnumbers: 135' and '149' for the given REMOTE host x.x.x.x.  
+In this example output, the ports that are open are 'portnumbers: 135' and '149' for the given REMOTE host x.x.x.x.  
 
 <img width="463" alt="Capture" src="https://user-images.githubusercontent.com/91548582/145676822-ef6d7b44-bf19-4c01-a812-14fd174dd4d2.PNG">
+
+
+## How to find Ports in use?
+
+## Method 1: Use Command Prompt 
+
+1. Run CMD as administrator.
+
+<img width="340" alt="Capture" src="https://user-images.githubusercontent.com/91548582/145676935-8de44def-5007-4ed1-9aa8-037b47ff4fe2.PNG">
+
+2. Once in the command prompt window, execute the command below.
+
+```
+netstat -ab
+
+```
+
+3.  After, you run the command you will see the port number right next to the ip address for e.g. 192.168.1.198:50325. 
+
+![check-ports-in-use-windows-10-01 (1)](https://user-images.githubusercontent.com/91548582/145677026-165bd7dd-e1de-4b02-8bad-d78726f158be.png)
+
+
+
 
