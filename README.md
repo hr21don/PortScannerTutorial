@@ -12,13 +12,6 @@ This is a form of "reconnaissance" for hackers and penetration testers.
 * Open up the file & change to the directory with Simpleportscanner.py in it
 * Run Simpleportscanner.py locally and notice the list of ports that are open.
 
-## Output || Testing the Reconnaissance Tool
-
-In this example output, the ports that are open are 'portnumbers: 135' and '149' for the given REMOTE host x.x.x.x.  
-
-<img width="463" alt="Capture" src="https://user-images.githubusercontent.com/91548582/145676822-ef6d7b44-bf19-4c01-a812-14fd174dd4d2.PNG">
-
-
 ## How to find Ports in use?
 
 ## Method 1: Use Command Prompt 
@@ -48,5 +41,19 @@ Nirsoft Utilities has a pretty neat and lightweight tool called CurrPorts which 
 2. As soon as you open the window, the application will list all the connections and their ports. You can find the port number under the Local Port section.
 
 ![check-ports-in-use-windows-10-04](https://user-images.githubusercontent.com/91548582/145677068-9cf5893f-ad9e-40dd-896b-c5a8522b73b4.png)
+
+
+## Resources To Try for youself
+
+  TCPview(2021). https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview . Date Accessed: 11/12/21
+  Currports(2021). https://www.nirsoft.net/utils/cports.html#DownloadLinks . Date Accessed: 11/12/21
+  
+  
+
+## Output || Testing the Reconnaissance Tool
+
+In this example output, the ports that are open are 'portnumbers: 135' and '149' for the given REMOTE host x.x.x.x.  
+
+<img width="463" alt="Capture" src="https://user-images.githubusercontent.com/91548582/145676822-ef6d7b44-bf19-4c01-a812-14fd174dd4d2.PNG">
 
 
