@@ -75,7 +75,7 @@ print(ascii_banner)
 
 ``` 
 
-## Ask for Input 
+## User Input
 ```
 # Ask for input
 remoteServer = input("Enter a remote host to scan: ")
@@ -114,7 +114,10 @@ except socket.gaierror:
 except socket.error:
     print ("Couldn't connect to server")
     sys.exit()
+```
+## Output
 
+```
 # Checking the time again
 t2 = datetime.now()
 
@@ -125,7 +128,7 @@ total = t2 - t1
 print ('Scanning Completed in: ', total)
 ```
 
-## Output || Testing the Reconnaissance Tool
+## Testing the Reconnaissance Tool
 
 In this example output, the ports that are open are '135' and '149' for the given REMOTE host x.x.x.x.  
 
