@@ -34,7 +34,7 @@ netstat -ab
 
 ```
 
-3.  After, you run the command you will see the port number right next to the ip address for e.g. 192.168.1.198:50325. 
+3.  After, you run the command you will see the port number right next to the ip address for e.g. 192.168.1.198:50412. 
 
 ![check-ports-in-use-windows-10-01 (1)](https://user-images.githubusercontent.com/91548582/145677026-165bd7dd-e1de-4b02-8bad-d78726f158be.png)
 
