@@ -49,9 +49,7 @@ Nirsoft Utilities has a pretty neat and lightweight tool called CurrPorts which 
   Currports(2021). https://www.nirsoft.net/utils/cports.html#DownloadLinks . Date Accessed: 11/12/21
   
 
-## Getting Started 
-
-## Import the required libraries 
+## Getting Started  || Grab the Full Code Here 
 
 ```
 #!/usr/bin/python3
@@ -61,11 +59,7 @@ import socket
 import subprocess
 import sys
 from datetime import datetime
-```
 
-## Clear the Screen + Generate ascii banner
-
-```
 #clear the screen
 subprocess.call('cls', shell=True)
 
@@ -73,10 +67,6 @@ subprocess.call('cls', shell=True)
 ascii_banner = pyfiglet.figlet_format("PORT SCANNER")
 print(ascii_banner)
 
-``` 
-
-## Input
-```
 # Ask for input
 remoteServer = input("Enter a remote host to scan: ")
 remoteServerIP = socket.gethostbyname(remoteServer)
@@ -91,10 +81,7 @@ t1 = datetime.now()
 
 # Using the range function to specify ports (here it will scans all ports
 # between 1 and 65535)
-```
-## Error handling
 
-```
 # We also put in some error handling for catching errors
 try:
     for port in range(1,65535):
@@ -114,10 +101,7 @@ except socket.gaierror:
 except socket.error:
     print ("Couldn't connect to server")
     sys.exit()
-```
-## Output
 
-```
 # Checking the time again
 t2 = datetime.now()
 
