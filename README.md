@@ -14,7 +14,7 @@ This is a form of "reconnaissance" for hackers and penetration testers.
 
 ## Output || Testing the Reconnaissance Tool
 
-Here is an example output of the ports that are open for a given REMOTE host x.x.x.x. 
-
+In this example output, the ports that are open are 'Portnumbers: 135' and '149' for the given REMOTE host x.x.x.x.  
 
 <img width="463" alt="Capture" src="https://user-images.githubusercontent.com/91548582/145676822-ef6d7b44-bf19-4c01-a812-14fd174dd4d2.PNG">
+
