@@ -63,7 +63,7 @@ import sys
 from datetime import datetime
 ```
 
-## Clear the Screen + ascii banner
+## Clear the Screen + Generate ascii banner
 
 ```
 #clear the screen
@@ -75,7 +75,7 @@ print(ascii_banner)
 
 ``` 
 
-## Input + banner + scan
+## Ask for Input 
 ```
 # Ask for input
 remoteServer = input("Enter a remote host to scan: ")
