@@ -52,7 +52,7 @@ Nirsoft Utilities has a pretty neat and lightweight tool called CurrPorts which 
 
 ## Output || Testing the Reconnaissance Tool
 
-In this example output, the ports that are open are 'portnumbers: 135' and '149' for the given REMOTE host x.x.x.x.  
+In this example output, the ports that are open are '135' and '149' for the given REMOTE host x.x.x.x.  
 
 <img width="463" alt="Capture" src="https://user-images.githubusercontent.com/91548582/145676822-ef6d7b44-bf19-4c01-a812-14fd174dd4d2.PNG">
 
