@@ -8,10 +8,6 @@ A port scanner is the process of running through a list of ports to see if they 
 Using, sockets to provide the basic functionality of a port scanner. 
 This is a form of "reconnaissance" for hackers and penetration testers.
 
-## How to run? || Download the zip file to your downloads directory and extract it.
-* Open up the file & change to the directory with Simpleportscanner.py in it
-* Run Simpleportscanner.py locally and notice the list of ports that are open.
-
 ## How to find Ports in use?
 
 ## Method 1: Use Command Prompt 
