@@ -57,11 +57,11 @@ Git clone repo from my github page.
 python Simpleportscanner.py
 ```
 
-## Add your remote host here and press enter || X.X.X.X. = Your_Remote_Host
+## Add your remote host here and press enter || x.x.x.x = Your_Remote_Host
 
 ```
 
-Enter a remote host to scan:
+Enter a remote host to scan: x.x.x.x
 Please wait, scanning remote host x.x.x.x:
 ```
 
