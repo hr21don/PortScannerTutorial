@@ -61,7 +61,7 @@ Git clone repo from my github page.
 python Simpleportscanner.py
 ```
 
-## add your remote host here and press enter || X.X.X.X. = Your_Remote_Host
+## Add your remote host here and press enter || X.X.X.X. = Your_Remote_Host
 
 ```
 
